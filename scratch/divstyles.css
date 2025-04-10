@@ -1,0 +1,39 @@
+.common{
+    /* border: 2px solid black; */
+    position:absolute 
+}
+
+.nav{
+    position: relative;
+    float: right;
+    font-size: 100%;
+
+}
+.footer{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    font-size: 100%;
+    font-style: italic;
+    text-align: center;
+    background-color: rgb(134, 134, 134, 0.9);
+
+}
+.header{
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    font-size: 300%;
+    font-style: oblique;
+    z-index: -1;
+
+}
+.content{
+    left: 10%;
+    top: 70px;
+    right: 10%;
+    bottom: 30px;
+    background-color: rgba(35, 134, 162, 0.9);
+}
